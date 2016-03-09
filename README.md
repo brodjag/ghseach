@@ -13,5 +13,5 @@ it uses 2 api-requists: <br/>
 <img src="./img/vm.png" width="200">
 
 
-p.s.:
-used framoworks: retrofit, picasso, recyclerview, cardview
+###p.s.:
+ used framoworks: retrofit, picasso, recyclerview, cardview etc.
