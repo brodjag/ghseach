@@ -16,3 +16,10 @@ it uses 2 api-requists: <br/>
 
 
 **used framoworks: retrofit, picasso, recyclerview, cardview etc.**
+
+##app files
+* [BlankFragment.java](https://github.com/brodjag/ghseach/blob/master/app/src/main/java/com/brodjag/githubapi/BlankFragment.java). this is main fragment with recyvlerView and filter function
+* [MainActivity.java](https://github.com/brodjag/ghseach/blob/master/app/src/main/java/com/brodjag/githubapi/MainActivity.java) it is used as base of app. I makes comunication for other classes (networkSet, tabSet). It has userList to keep seach results. 
+* [tabSet.java](https://github.com/brodjag/ghseach/blob/master/app/src/main/java/com/brodjag/githubapi/tabSet.java) . It makes tabs-bar and seach-bar.
+* [networkSet.java](https://github.com/brodjag/ghseach/blob/master/app/src/main/java/com/brodjag/githubapi/networkSet.java) it does netwok communication and has data classes for user and userInfo. Please specify *LOGIN*  and *PASSWORD* to wide limits.
+* [ServiceGenerator.java](https://github.com/brodjag/ghseach/blob/master/app/src/main/java/com/brodjag/githubapi/ServiceGenerator.java) it is a help class for networkSet.
